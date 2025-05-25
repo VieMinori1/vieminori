@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Articoli - Vie Minori</title>
+  <meta name="description" content="Leggi gli articoli di Vie Minori sul cicloturismo nei borghi italiani.">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <a href="index.html"><img src="logo-vieminori.png" alt="Logo Vie Minori" /></a>
+      <h1>Vie Minori</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="percorsi.html">Percorsi</a></li>
+        <li><a href="borghi.html">Borghi</a></li>
+        <li><a href="articoli.html">Articoli</a></li>
+        <li><a href="contatti.html">Contatti</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Articoli più recenti</h2>
+    <ul id="lista-articoli"></ul>
+  </main>
+
+  <footer>
+    <div class="social">
+      <a href="https://www.instagram.com/vieminori" target="_blank">Instagram</a> |
+      <a href="https://www.threads.net/@vieminori" target="_blank">Threads</a>
+    </div>
+    <p>&copy; 2025 Vie Minori</p>
+  </footer>
+
+  <script>
+    fetch("articoli.json")
+      .then(response => response.json())
+      .then(data => {
+        const container = document.getElementById("lista-articoli");
+        data.forEach(articolo => {
+          const li = document.createElement("li");
+          const a = document.createElement("a");
+          a.href = articolo.url;
+          a.textContent = articolo.titolo;
+          li.appendChild(a);
+          container.appendChild(li);
+        });
+      });
+  </script>
+</body>
+</html>
