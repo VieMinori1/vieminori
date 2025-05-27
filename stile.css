@@ -31,7 +31,6 @@ nav ul {
   display: flex;
   gap: 1rem;
   margin: 0;
-  padding: 0 auto 0 2rem;
 }
 
 nav a {
