@@ -1,5 +1,4 @@
-<!DOCTYPE html>
-<html lang="it">
+<!DOCTYPE html><html lang="it">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -27,33 +26,26 @@
     <a href="#consigli">Consigli</a>
     <a href="#contatti">Contatti</a>
   </nav>  <main class="container">
-  <main>
-    <h2>Articoli più recenti</h2>
-    <ul id="lista-articoli"></ul>
-  </main>
+    <section id="percorsi">
+      <h2>Percorsi consigliati</h2>
+      <p>Esplora i nostri itinerari con tracce GPX, profili altimetrici e dettagli sui punti di interesse lungo il cammino.</p>
+    </section><section id="borghi">
+  <h2>Borghi da scoprire</h2>
+  <p>Scopri la storia, la cultura e le tradizioni dei borghi attraversati. Ogni borgo ha una storia unica da raccontare.</p>
+</section>
 
-  <footer>
-    <div class="social">
-      <a href="https://www.instagram.com/vieminori" target="_blank">Instagram</a> |
-      <a href="https://www.threads.net/@vieminori" target="_blank">Threads</a>
-    </div>
-    <p>&copy; 2025 Vie Minori</p>
+<section id="consigli">
+  <h2>Consigli di viaggio</h2>
+  <p>Equipaggiamento, preparazione fisica, alimentazione e sicurezza: tutto ciò che serve per godersi il cicloturismo.</p>
+</section>
+
+<section id="contatti">
+  <h2>Contattaci</h2>
+  <p>Scrivici per condividere il tuo percorso, chiedere consigli o collaborare: <a href="mailto:info@vieminori.it">info@vieminori.it</a></p>
+</section>
+
+  </main>  <footer>
+    <p>&copy; 2025 Vie Minori - Tutti i diritti riservati</p>
   </footer>
-
-  <script>
-    fetch("articoli.json")
-      .then(response => response.json())
-      .then(data => {
-        const container = document.getElementById("lista-articoli");
-        data.forEach(articolo => {
-          const li = document.createElement("li");
-          const a = document.createElement("a");
-          a.href = articolo.url;
-          a.textContent = articolo.titolo;
-          li.appendChild(a);
-          container.appendChild(li);
-        });
-      });
-  </script>
 </body>
 </html>
