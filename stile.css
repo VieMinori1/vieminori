@@ -16,7 +16,7 @@ body {
 }
 
 header {
-  background: linear-gradient(to right, #a8e6cf, #dcedc1); /* prato e verde chiaro */
+  background: #dcedc1;
   padding: 1rem;
   text-align: center;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
@@ -25,6 +25,7 @@ header {
 header h1 {
   color: #2e7d32; /* verde bosco */
   font-size: 2rem;
+  font-weight:bold
 }
 
 nav {
