@@ -59,26 +59,9 @@ main {
 footer {
   text-align: center;
   padding: 1rem;
-  background-color: #aed581; /* verde cereale */
+  background-color: #dcedc1; /* verde cereale */
   color: #2e7d32;
   margin-top: 2rem;
-}
-
-/* Instagram carousel area */
-#insta-carousel {
-  display: flex;
-  overflow-x: auto;
-  gap: 1rem;
-  padding: 1rem 0;
-  scroll-snap-type: x mandatory;
-}
-
-#insta-carousel img {
-  height: 150px;
-  flex-shrink: 0;
-  scroll-snap-align: start;
-  border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
 }
 
 /* Responsive */
