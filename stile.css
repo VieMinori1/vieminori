@@ -28,7 +28,7 @@ header h1 {
 }
 
 nav {
-  background-color: #2e7d32; /* verde bosco */
+  background: background: linear-gradient(to right, #a8e6cf, #dcedc1); /* prato e verde chiaro */
   display: flex;
   justify-content: center;
   padding: 0.5rem;
