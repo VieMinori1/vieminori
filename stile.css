@@ -62,6 +62,9 @@ footer {
   background-color: #dcedc1; /* verde cereale */
   color: #000;
   margin-top: 2rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
 
 /* Responsive */
