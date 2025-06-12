@@ -23,7 +23,7 @@ header {
 }
 
 header h1 {
-  color: #2e7d32; /* verde bosco */
+  color: #fff; /* verde bosco */
   font-size: 2rem;
   font-weight:bold
 }
@@ -83,7 +83,7 @@ footer {
   text-align: center;
   padding: 1rem;
   background-color: #055f08; /* verde cereale */
-  color: #000;
+  color: #fff;
   margin-top: 2rem;
 }
 
