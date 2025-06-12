@@ -16,7 +16,7 @@ body {
 }
 
 header {
-  background: #dcedc1;
+  background: #055f08;
   padding: 1rem;
   text-align: center;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
@@ -82,7 +82,7 @@ main {
 footer {
   text-align: center;
   padding: 1rem;
-  background-color: #dcedc1; /* verde cereale */
+  background-color: #055f08; /* verde cereale */
   color: #000;
   margin-top: 2rem;
 }
