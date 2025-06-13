@@ -7,7 +7,7 @@
   <meta name="keywords" content="cicloturismo, vie minori, borghi, natura, GPX, bici">
   <meta name="author" content="Vie Minori">
   <link rel="canonical" href="https://www.vieminori.it/">
-  <link rel="stylesheet" href="/stile.css">
+  <link rel="stylesheet" href="stile.css">
   <title>Vie Minori - Cicloturismo tra borghi e natura</title>
 </head>
 <body>
