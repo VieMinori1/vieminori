@@ -61,3 +61,15 @@ footer {
   letter-spacing: 0.5px;
   box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
 }
+footer a {
+  color: white;
+  text-decoration: underline;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+footer a:hover {
+  color: #a9dfbf; /* Verde chiaro per effetto hover */
+}
+
+
