@@ -38,6 +38,7 @@
     </nav>
   </header>
   <main>
+    Sono le ore <?php echo date('H:i'); ?> del giorno <?php echo date('d/m/Y'); ?>.
     <section>
       <h2>Scopri Vie Minori</h2>
       <p>
@@ -61,15 +62,6 @@
         di ogni tappa. Piccoli scrigni da vivere lentamente, una pedalata alla volta.
       </p>
     </section>
-    <article>
-      <h2>Filacciano ed il panorama sul Tevere</h2>
-      <p>Ho visitato Filacciano poche settimane fa, durante un'escursione in bicicletta, da Monterotondo non è così faticoso arrivarci,
-      percorrendo la bretella Salaria di giunge in via Tiberina e si prosegue verso nord fino ad arrivare a <strong>Fiano Romano</strong>.<br>
-      Da Fiano Romano si prende la via Nazzanese e si prosegue sempre dritto sino ad arrivare a vicino Nazzano dove sulla sinistra c'è il
-      bivio verso <strong>Filacciano</strong>.<br>
-      Poco prima di giungere a <strong>Filacciano</strong> si percorre un viale in pianura con a bordo strada meravigliosi alberi d'alto fusto.<br>
-      </p>
-    </article>
     <section>
       <h2>🚴‍♂️ Consigli di viaggio</h2>
       <p>
