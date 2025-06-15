@@ -38,7 +38,6 @@
     </nav>
   </header>
   <main>
-    Sono le ore <?php echo date('H:i'); ?> del giorno <?php echo date('d/m/Y'); ?>.
     <section>
       <h2>Scopri Vie Minori</h2>
       <p>
