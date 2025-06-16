@@ -51,14 +51,14 @@ main {
   margin: 0 auto;
 }
 
-.social-links a {
+social-links li a {
   list-style-type:none;
   color:#222;
   text-decoration: underline;
   font-weight: bold;
   transition: color 0.3s ease;
 }
-.social-links a:hover {
+social-links a:hover {
   color: #a9dfbf;
 }
 /* Footer */
