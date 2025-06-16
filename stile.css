@@ -14,7 +14,12 @@ header {
   padding: 20px 0;
   text-align: center;
 }
-
+logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+}
 header h1 {
   margin: 0;
   font-size: 2em;
