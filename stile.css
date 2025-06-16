@@ -56,7 +56,10 @@ main {
   max-width: 900px;
   margin: 0 auto;
 }
-
+h2 {
+  margin: 0;
+  font-size: 1.5em;
+}
 .social-links li a {
   list-style-type: none;
   color:#222;
