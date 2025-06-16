@@ -53,9 +53,12 @@ main {
 
 .social-links a {
   color:#222;
+  text-decoration: underline;
+  font-weight: bold;
+  transition: color 0.3s ease;
 }
 .social-links a:hover {
-  color:#a9dfbf;
+  color: #a9dfbf;
 }
 /* Footer */
 footer {
