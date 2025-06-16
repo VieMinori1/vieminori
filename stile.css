@@ -52,7 +52,7 @@ main {
 }
 
 social-links li a {
-  list-style-type:none;
+  list-style-type: none;
   color:#222;
   text-decoration: underline;
   font-weight: bold;
