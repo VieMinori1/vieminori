@@ -2,9 +2,15 @@
 <urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.vieminori.it/</loc>
-    <lastmod>2025-05-24</lastmod>
+    <lastmod>2025-06-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.vieminori.it/index.html</loc>
+    <lastmod>2025-06-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <!-- Esempio di altre pagine: decommentale quando le crei -->
   <!--
