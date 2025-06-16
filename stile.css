@@ -60,7 +60,7 @@ main {
 .social-links li a {
   list-style-type: none;
   color:#222;
-  text-decoration: underline;
+  text-decoration: none;
   font-weight: bold;
   transition: color 0.3s ease;
 }
