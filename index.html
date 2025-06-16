@@ -1,41 +1,12 @@
-<!DOCTYPE html>
-<html lang="it">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script>
+  fetch('header.html')
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById('header-container').innerHTML = data;
+    })
+    .catch(error => console.error('Errore nel caricamento del file:', error));
+</script>
 
-  <title>Vie Minori - Cicloturismo tra borghi e natura</title>
-  <meta name="description" content="Scopri le Vie Minori: itinerari in bici tra borghi, natura e tradizioni italiane. Tracce GPX, storie, consigli e viaggi autentici in cicloturismo.">
-  <meta name="keywords" content="cicloturismo, borghi, natura, bici, vie minori, viaggi in bici, turismo lento">
-  <meta name="author" content="Vie Minori">
-
-  <!-- Canonical URL -->
-  <link rel="canonical" href="https://www.vieminori.it/">
-
-  <!-- Favicons -->
-  <link rel="icon" href="favicon.ico" type="image/x-icon">
-
-  <!-- CSS -->
-  <link rel="stylesheet" href="stile.css">
-
-  <!-- SEO social (base, da ampliare) -->
-  <meta property="og:title" content="Vie Minori - Cicloturismo tra borghi e natura">
-  <meta property="og:description" content="Scopri itinerari cicloturistici autentici in Italia, borghi nascosti e consigli di viaggio.">
-  <meta property="og:url" content="https://www.vieminori.it/">
-  <meta property="og:type" content="website">
-</head>
-
-<body>
-  <header>    
-           <h1>Vie Minori</h1>
-     <nav>
-      <ul class="menu">
-        <li><a href="index.html" aria-label="Home">🏠 Home</a></li>
-        <li><a href="borghi.html" aria-label="Borghi italiani">🏘️ Borghi su Vie Minori</a></li>
-        <li><a href="contatti.html" aria-label="Contattaci su Instagram e Threads">📬 Contatti</a></li>
-      </ul>
-    </nav>
-  </header>
   <main>
     <section>
       <h2>Scopri Vie Minori</h2>
