@@ -14,14 +14,17 @@ header {
   padding: 20px 0;
   text-align: center;
 }
+logo {
+  margin-top: 10px;
+}
+
 logo a {
   color: white;
-  text-decoration: none;
+  text-decoration: underline;
   font-weight: bold;
-  transition: color 0.3s ease;  
-  font-size: 2rem;
-  text-transform: uppercase;
+  transition: color 0.3s ease;
 }
+
 logo a:hover {
   color: #a9dfbf; /* Verde chiaro per effetto hover */
 }
