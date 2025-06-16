@@ -22,7 +22,7 @@ logo a {
   font-size: 2rem;
   text-transform: uppercase;
 }
-nav logo:hover {
+logo a:hover {
   color: #a9dfbf; /* Verde chiaro per effetto hover */
 }
 
