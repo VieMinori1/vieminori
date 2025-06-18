@@ -70,6 +70,22 @@ h2 {
 .social-links a:hover {
   color: #a9dfbf;
 }
+.event-box {
+  background-color: #f4f4f4;
+  border-left: 6px solid #2c4f2c; /* verde inglese */
+  padding: 1.5rem;
+  margin: 2rem 0;
+  border-radius: 8px;
+  font-size: 1rem;
+  line-height: 1.6;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.event-box h2 {
+  margin-top: 0;
+  color: #2c4f2c;
+  font-weight: bold;
+}
 /* Footer */
 footer {
   background-color: #014421; /* verde inglese */
