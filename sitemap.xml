@@ -14,7 +14,13 @@
   </url>
   <url>
     <loc>https://www.vieminori.it/filacciano-roma.html</loc>
-    <lastmod>2025-06-16</lastmod>
+    <lastmod>2025-06-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+   <url>
+    <loc>https://www.vieminori.it/abbazia-farfa-sabina.html</loc>
+    <lastmod>2025-06-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
