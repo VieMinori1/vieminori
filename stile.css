@@ -46,13 +46,9 @@ nav {
 /* Menu a hamburger */
 .hamburger {
   display: block;
-  position: absolute;
-  top: 1rem;
-  left: 1rem;
+  cursor: pointer;
   font-size: 2rem;
   color: white;
-  cursor: pointer;
-  z-index: 1001; /* per stare sopra al resto */
 }
 
 /* Nascondi il menu per default su mobile */
