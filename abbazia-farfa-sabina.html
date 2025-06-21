@@ -39,13 +39,15 @@
     ☰
   </button>
 
-  <nav id="menu" class="menu">
-    <ul>
+<nav>
+  <div class="hamburger" onclick="toggleMenu()">☰</div>
+  <ul class="nav-links" id="navLinks">
       <li><a href="index.html" aria-label="Home">🏠 Home</a></li>
-      <li><a href="borghi.html" aria-label="Borghi italiani">🏘️ Borghi</a></li>
-      <li><a href="contatti.html" aria-label="Contattaci su Instagram e Threads">📬 Contatti</a></li>
-    </ul>
-  </nav>
+      <li><a href="borghi.html" aria-label="Borghi italiani"> Borghi</a></li>
+      <li><a href="contatti.html" aria-label="Contattaci su Instagram e Threads"> Contatti</a></li>
+  </ul>
+</nav>
+
 </header>
 
     <nav class="breadcrumb" aria-label="Percorso di navigazione">
@@ -305,17 +307,10 @@ con l'<strong>erboristeria dei monaci benedettini</strong>, sono sicuro che il <
   }
 }
 </script>
-    <script>
-  const hamburger = document.querySelector('.hamburger');
-  const menu = document.querySelector('#menu');
-
-  hamburger.addEventListener('click', () => {
-    const expanded = hamburger.getAttribute('aria-expanded') === 'true' || false;
-    hamburger.setAttribute('aria-expanded', !expanded);
-    menu.classList.toggle('open');
-  });
+<script>
+  function toggleMenu() {
+    document.getElementById('navLinks').classList.toggle('active');
+  }
 </script>
-</body>
-
 </body>
 </html>
