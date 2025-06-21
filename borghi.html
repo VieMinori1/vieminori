@@ -19,7 +19,7 @@
   <link rel="icon" href="favicon.ico" type="image/x-icon">
 
   <!-- CSS -->
-  <link rel="stylesheet" href="stile.css">
+  <link rel="stylesheet" href="stile.css?v=1">
 
   <!-- SEO social (base, da ampliare) -->
   <meta name="copyright" content="Contenuti di Vie Minori distribuiti con licenza Creative Commons BY-NC-SA 4.0">
@@ -30,17 +30,23 @@
 </head>
 
 <body>
-   <header>    
-     <div class="titolo">Vie Minori</div>
-     <h2 class="header-subtitle">Cicloturismo, borghi, natura e storie lungo le vie meno battute d’Italia</h2>
-      <nav>
-      <ul class="menu">
-        <li><a href="index.html" aria-label="Home">🏠 Home</a></li>
-        <li><a href="borghi.html" aria-label="Borghi italiani">🏘️ Borghi</a></li>
-        <li><a href="contatti.html" aria-label="Contattaci su Instagram e Threads">📬 Contatti</a></li>
-      </ul>
-    </nav>
-  </header>
+  <header>
+  <div class="titolo">Vie Minori</div>
+  <h2 class="header-subtitle">Cicloturismo, borghi, natura e storie lungo le vie meno battute d’Italia</h2>
+
+  <button class="hamburger" aria-label="Apri menu" aria-expanded="false" aria-controls="menu">
+    ☰
+  </button>
+
+  <nav id="menu" class="menu">
+    <ul>
+      <li><a href="index.html" aria-label="Home">🏠 Home</a></li>
+      <li><a href="borghi.html" aria-label="Borghi italiani">🏘️ Borghi</a></li>
+      <li><a href="contatti.html" aria-label="Contattaci su Instagram e Threads">📬 Contatti</a></li>
+    </ul>
+  </nav>
+</header>
+
      <nav class="breadcrumb" aria-label="Percorso di navigazione">
     <a href="index.html" title="Vie Minori">Home Page</a> &raquo; <a href="borghi.html">Borghi</a>
   </nav>
@@ -110,7 +116,7 @@
 </p>
 
   </div>
-  
+  </footer>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -132,6 +138,15 @@
   "url": "https://www.vieminori.it"
 }
 </script>
-</footer>
+  <script>
+  const hamburger = document.querySelector('.hamburger');
+  const menu = document.querySelector('#menu');
+
+  hamburger.addEventListener('click', () => {
+    const expanded = hamburger.getAttribute('aria-expanded') === 'true' || false;
+    hamburger.setAttribute('aria-expanded', !expanded);
+    menu.classList.toggle('open');
+  });
+</script>
 </body>
 </html>
