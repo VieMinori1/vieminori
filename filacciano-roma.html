@@ -27,41 +27,24 @@
   <meta property="og:description" content="Scopri itinerari cicloturistici autentici in Italia, borghi nascosti e consigli di viaggio.">
   <meta property="og:url" content="https://www.vieminori.it/filacciano-roma.html">
   <meta property="og:type" content="website">
-<script type="application/ld+json">
-{
-  "@context":"https://schema.org",
-  "@type":"TouristAttraction",
-  "name":"Palazzo del Drago",
-  "description":"Il Palazzo del Drago a Filacciano, set di Fellini per 8½.",
-  "image":"https://vieminori.it/filacciano-palazzo-drago.webp",
-  "geo": { "@type":"GeoCoordinates", "latitude": 42.2467, "longitude": 12.6206 }
-}
-</script>
-<script type="application/ld+json">
-{
-  "@context":"https://schema.org",
-  "@type":"TouristDestination",
-  "name":"Filacciano",
-  "description":"Filacciano è un borgo del Lazio sul Tevere, noto per Palazzo del Drago.",
-  "image":"https://vieminori.it/filacciano-palazzo-drago.webp",
-  "geo": { "@type":"GeoCoordinates", "latitude": 42.2467, "longitude": 12.6206 },
-  "touristType":"Cicloturisti",
-  "isPartOf": { "@type":"WebSite", "name":"Vie Minori", "url":"https://vieminori.it" }
-}
-</script>
 </head>
   <body>
-  <header>    
-    <div class="titolo">Vie Minori</div>
-    <h2 class="header-subtitle">Cicloturismo, borghi, natura e storie lungo le vie meno battute d’Italia</h2>
-    <nav>
-      <ul class="menu">
-        <li><a href="index.html" aria-label="Home">🏠 Home</a></li>
-        <li><a href="borghi.html" aria-label="Borghi italiani">🏘️ Borghi</a></li>
-        <li><a href="contatti.html" aria-label="Contattaci su Instagram e Threads">📬 Contatti</a></li>
-      </ul>
-    </nav>
-  </header>
+  <header>
+  <div class="titolo">Vie Minori</div>
+  <h2 class="header-subtitle">Cicloturismo, borghi, natura e storie lungo le vie meno battute d’Italia</h2>
+
+  <button class="hamburger" aria-label="Apri menu" aria-expanded="false" aria-controls="menu">
+    ☰
+  </button>
+
+  <nav id="menu" class="menu">
+    <ul>
+      <li><a href="index.html" aria-label="Home">🏠 Home</a></li>
+      <li><a href="borghi.html" aria-label="Borghi italiani">🏘️ Borghi</a></li>
+      <li><a href="contatti.html" aria-label="Contattaci su Instagram e Threads">📬 Contatti</a></li>
+    </ul>
+  </nav>
+</header>
     <nav class="breadcrumb" aria-label="Percorso di navigazione">
     <a href="index.html" title="Vie Minori">Home Page</a> &raquo; <a href="borghi.html" title="Borghi">Borghi</a>&raquo; <a href="filacciano-roma.html" title="Filacciano Roma">Filacciano</a>
   </nav>
@@ -281,6 +264,38 @@ Anche se piccolo e poco popolato, Filacciano conserva un’anima viva: il centro
   "name": "Vie Minori",
   "url": "https://www.vieminori.it"
 }
+</script>
+    <script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"TouristAttraction",
+  "name":"Palazzo del Drago",
+  "description":"Il Palazzo del Drago a Filacciano, set di Fellini per 8½.",
+  "image":"https://vieminori.it/filacciano-palazzo-drago.webp",
+  "geo": { "@type":"GeoCoordinates", "latitude": 42.2467, "longitude": 12.6206 }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"TouristDestination",
+  "name":"Filacciano",
+  "description":"Filacciano è un borgo del Lazio sul Tevere, noto per Palazzo del Drago.",
+  "image":"https://vieminori.it/filacciano-palazzo-drago.webp",
+  "geo": { "@type":"GeoCoordinates", "latitude": 42.2467, "longitude": 12.6206 },
+  "touristType":"Cicloturisti",
+  "isPartOf": { "@type":"WebSite", "name":"Vie Minori", "url":"https://vieminori.it" }
+}
+</script>
+    <script>
+  const hamburger = document.querySelector('.hamburger');
+  const menu = document.querySelector('#menu');
+
+  hamburger.addEventListener('click', () => {
+    const expanded = hamburger.getAttribute('aria-expanded') === 'true' || false;
+    hamburger.setAttribute('aria-expanded', !expanded);
+    menu.classList.toggle('open');
+  });
 </script>
 </body>
 </html>
