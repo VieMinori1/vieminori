@@ -75,20 +75,74 @@
     .cta-button:hover {
       background-color: #e0b800;
     }
+     /* Di base, il menu è visibile */
+.menu ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  padding: 0;
+  margin: 0;
+}
+
+.hamburger {
+  display: none;
+  font-size: 2rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* Versione mobile */
+@media (max-width: 768px) {
+  .menu {
+    display: none;
+    background: #fff;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    right: 0;
+    padding: 1rem;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    z-index: 1000;
+  }
+
+  .menu.open {
+    display: block;
+  }
+
+  .menu ul {
+    flex-direction: column;
+    gap: 0.8rem;
+  }
+
+  .hamburger {
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 1100;
+  }
+}
   </style>
 </head>
 <body>
-   <header>    
-    <div class="titolo">Vie Minori</div>
-     <h2 class="header-subtitle">Cicloturismo, borghi, natura e storie lungo le vie meno battute d’Italia</h2>
-     <nav>
-      <ul class="menu">
-        <li><a href="index.html" aria-label="Home">🏠 Home</a></li>
-        <li><a href="borghi.html" aria-label="Borghi italiani">🏘️ Borghi</a></li>
-        <li><a href="contatti.html" aria-label="Contattaci su Instagram e Threads">📬 Contatti</a></li>
-      </ul>
-    </nav>
-  </header>
+   <header>
+  <div class="titolo">Vie Minori</div>
+  <h2 class="header-subtitle">Cicloturismo, borghi, natura e storie lungo le vie meno battute d’Italia</h2>
+
+  <button class="hamburger" aria-label="Apri menu" aria-expanded="false" aria-controls="menu">
+    ☰
+  </button>
+
+  <nav id="menu" class="menu">
+    <ul>
+      <li><a href="index.html" aria-label="Home">🏠 Home</a></li>
+      <li><a href="borghi.html" aria-label="Borghi italiani">🏘️ Borghi</a></li>
+      <li><a href="contatti.html" aria-label="Contattaci su Instagram e Threads">📬 Contatti</a></li>
+    </ul>
+  </nav>
+</header>
+
   <nav class="breadcrumb" aria-label="Percorso di navigazione">
     <a href="index.html" title="Vie Minori">Home Page</a> 
   </nav>
@@ -290,5 +344,16 @@
   "url": "https://www.vieminori.it"
 }
 </script>
+  <script>
+  const hamburger = document.querySelector('.hamburger');
+  const menu = document.querySelector('#menu');
+
+  hamburger.addEventListener('click', () => {
+    const expanded = hamburger.getAttribute('aria-expanded') === 'true' || false;
+    hamburger.setAttribute('aria-expanded', !expanded);
+    menu.classList.toggle('open');
+  });
+</script>
+</body>
 </body>
 </html>
