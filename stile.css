@@ -1,4 +1,4 @@
-/* Reset base */
+/* ========== RESET BASE ========== */
 body {
   margin: 0;
   font-family: 'Helvetica Neue', sans-serif;
@@ -7,22 +7,18 @@ body {
   color: #222;
 }
 
-/* Header */
+/* ========== HEADER ========== */
 header {
   background-color: #004225; /* Verde inglese */
   color: #fff;
   padding: 20px 0;
   text-align: center;
-  font-size:1.5rem;
 }
-titolo {
-  margin: 0;
-  font-size: 4rem;
-  font-weight:bold;
-}
+
 header h1 {
   margin: 0;
-  font-size: 2em;
+  font-size: 2.5rem;
+  font-weight: bold;
 }
 
 nav {
@@ -36,7 +32,7 @@ nav ul {
   display: flex;
   justify-content: center;
   gap: 20px;
-  font-size:0.8em;
+  font-size: 0.85rem;
 }
 
 nav li a {
@@ -47,32 +43,24 @@ nav li a {
 }
 
 nav li a:hover {
-  color: #a9dfbf; /* Verde chiaro per effetto hover */
+  color: #a9dfbf;
 }
 
-/* Contenuto principale */
+/* ========== CONTENUTO PRINCIPALE ========== */
 main {
   padding: 40px 20px;
   max-width: 900px;
   margin: 0 auto;
 }
+
 h2 {
-  margin: 0;
+  margin: 0 0 1rem;
   font-size: 1.5em;
 }
-.social-links li a {
-  list-style-type: none;
-  color:#222;
-  text-decoration: none;
-  font-weight: bold;
-  transition: color 0.3s ease;
-}
-.social-links a:hover {
-  color: #a9dfbf;
-}
+
 .event-box {
   background-color: #f4f4f4;
-  border-left: 6px solid #2c4f2c; /* verde inglese */
+  border-left: 6px solid #2c4f2c;
   padding: 1.5rem;
   margin: 2rem 0;
   border-radius: 8px;
@@ -86,6 +74,8 @@ h2 {
   color: #2c4f2c;
   font-weight: bold;
 }
+
+/* ========== GRIGLIA BORGHI ========== */
 .borgo-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -96,7 +86,7 @@ h2 {
 .borgo-card {
   background-color: #f8f9fa;
   border-radius: 12px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
   overflow: hidden;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
   text-align: center;
@@ -104,7 +94,7 @@ h2 {
 
 .borgo-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 4px 14px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
 }
 
 .borgo-card img {
@@ -129,10 +119,32 @@ h2 {
   text-decoration: none;
   color: inherit;
 }
-/* Footer */
+
+/* ========== SOCIAL LINK ========== */
+.social-links {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.social-links a {
+  color: #222;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+  color: #a9dfbf;
+}
+
+/* ========== FOOTER ========== */
 footer {
-  background-color: #014421; /* verde inglese */
-  color: #ffffff; /* testo bianco */
+  background-color: #014421;
+  color: #ffffff;
   text-align: center;
   padding: 1.5rem 1rem;
   font-size: 1rem;
@@ -140,6 +152,7 @@ footer {
   letter-spacing: 0.5px;
   box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
 }
+
 footer a {
   color: white;
   text-decoration: underline;
@@ -148,7 +161,5 @@ footer a {
 }
 
 footer a:hover {
-  color: #a9dfbf; /* Verde chiaro per effetto hover */
+  color: #a9dfbf;
 }
-
-
