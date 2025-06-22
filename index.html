@@ -20,7 +20,7 @@
   <link rel="icon" href="favicon.ico" type="image/x-icon">
 
   <!-- CSS -->
-<link rel="stylesheet" href="stile.css?v=1">
+<link rel="stylesheet" href="stile.css">
 
   <!-- SEO social (base, da ampliare) -->
   
@@ -32,7 +32,7 @@
   <meta property="og:locale" content="it_IT">
   <meta property="og:site_name" content="Vie Minori">
    <style>
-     .hero {
+hero {
       position: relative;
       width: 100%;
       height: 100vh;
@@ -42,7 +42,7 @@
       align-items: center;
       color: white;
       text-align: center;
-    }
+
     .overlay {
       position: absolute;
       top: 0; left: 0;
@@ -76,7 +76,17 @@
       background-color: #e0b800;
     }
      /* Di base, il menu è visibile */
-
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
   </style>
 </head>
 <body>
