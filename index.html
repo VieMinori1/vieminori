@@ -32,26 +32,26 @@
   <meta property="og:locale" content="it_IT">
   <meta property="og:site_name" content="Vie Minori">
    <style>
-  .hero {
+ .hero {
   aspect-ratio: 16 / 9;
   background-size: cover;
   background-position: center;
   display: flex;
-  justify-content: center;
-  min-height: 50vh; /* oppure height: 400px */
-  align-items:center
+  justify-content: center;    /* centra orizzontalmente */
+  align-items: center;        /* centra verticalmente */
+  min-height: 50vh;
 }
 
-  .hero-content {
-  background: rgba(0, 0, 0, 0.5); /* per leggibilità testo */
+.hero-content {
+  background: rgba(0, 0, 0, 0.5); /* per leggibilità del testo */
   padding: 2rem;
   border-radius: 1rem;
   max-width: 800px;
   text-align: center;
-  color:#fff;
-  align-self: flex-start;
-  height: auto;
+  color: #fff;
+  /* Niente height fissa e niente align-self */
 }
+
 .hero-content h1 {
   font-size:2rem;
 }
