@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Montorio Romano: un borgo antico sui Monti Lucretili al confine tra Roma e Rieti | Vie Minori</title>
+  <meta name="description" content="Montorio Romano: un borgo antico sui Monti Lucretili al confine tra Roma e Rieti.">
+  <meta name="keywords" content="Montorio Romano, cicloturismo Lazio, borghi Lazio in bici, GPX Montorio Romano, escursioni bici Monti Lucretili, borgo medievale Montorio">
+  <meta name="author" content="Vie Minori">
+  <meta property="og:image" content="https://vieminori.it/montorio-romano-torre-campanaria.webp">
+  <meta name="copyright" content="Contenuti di Vie Minori distribuiti con licenza Creative Commons BY-NC-SA 4.0">
+  <meta name="robots" content="index, follow">
+
+  <!-- Canonical URL -->
+  <link rel="canonical" href="https://www.vieminori.it/montorio-romano-roma.html">
+  <link rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+
+  <!-- Favicons -->
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="stile.css">
+
+  <!-- SEO social (base, da ampliare) -->
+  <meta property="og:title" content="Montorio Romano: un borgo antico sui Monti Lucretili al confine tra Roma e Rieti">
+  <meta property="og:description" content="Montorio Romano: un borgo antico sui Monti Lucretili al confine tra Roma e Rieti.">
+  <meta property="og:url" content="https://www.vieminori.it/montorio-romano-roma.html">
+  <meta property="og:type" content="website">
+</head>
+  <body>
+  <header>
+  <div class="titolo">Vie Minori</div>
+  <h2 class="header-subtitle">Cicloturismo, borghi, natura e storie lungo le vie meno battute d’Italia</h2>
+<nav>
+  <div class="hamburger" onclick="toggleMenu()">☰</div>
+  <ul class="nav-links" id="navLinks">
+      <li><a href="index.html" aria-label="Home">🏠 Home</a></li>
+      <li><a href="borghi.html" aria-label="Borghi italiani"> Borghi</a></li>
+      <li><a href="contatti.html" aria-label="Contattaci su Instagram e Threads"> Contatti</a></li>
+  </ul>
+</nav>
+</header>
+    <nav class="breadcrumb" aria-label="Percorso di navigazione">
+    <a href="index.html" title="Vie Minori">Home Page</a> &raquo; <a href="borghi.html" title="Borghi">Borghi</a>&raquo; <a href="montorio-romano-roma.html" title="Montorio Romano">Montorio Romano</a>
+  </nav>
+  <main>
+     <h1>Un piccolo borgo alle porte dei Monti Lucretili, tra salite panoramiche e silenzio d'altri tempi</h1>
+    <article>
+     <p><em>Montorio Romano si trova sul confine tra la Città Metropolitana di Roma Capitale e la Provincia di Rieti. E' un borgo autentico, lontano dal turismo
+      di massa, si trovano ancora i vecchietti nella piazza che quando vedono una faccia nuova, hanno voglia di scambiare qualche chiacchiera.</em>
+    </p>
+    <section style="background:#f0f0f0; padding:1em; border-radius:10px; margin:2em 0;">
+    <h2>Dati tecnici dell’itinerario</h2>
+    <table style="width:100%; border-collapse:collapse;">
+      <tr><th style="text-align:left;">📍 Punto di partenza</th><td>Monterotondo</td></tr>
+      <tr><th style="text-align:left;">📏 Distanza totale</th><td>58 km</td></tr>
+      <tr><th style="text-align:left;">⛰️ Dislivello</th><td>742 m</td></tr>
+      <tr><th style="text-align:left;">⏱️ Durata</th><td>3:42 ore</td></tr>
+      <tr><th style="text-align:left;">⚙️ Difficoltà</th><td>Media - Difficile</td></tr>
+      <tr><th style="text-align:left;">📄 GPX</th>
+      <td><a href="montorio-romano.gpx" download title="Scarica il file GPX per GPS o app di navigazione" type="application/gpx+xml">Scarica la traccia GPX</a></td></tr>
+    </table>
+  </section>
+  <section>
+   <h2>Cosa vedere e fotografare</h2>
+    <ul>
+      <li><strong>Centro storico</strong>: viuzze acciottolate, case in pietra, silenzio e vedute mozzafiato</li>
+      <li><strong>Porta Romana</strong>: antico accesso al borgo con arco in pietra</li>
+      <li><strong>Chiesa di San Leonardo</strong>: risalente al XVII secolo, con facciata semplice e interni sobri</li>
+      <li><strong>Belvedere</strong>: punto panoramico affacciato sulla Valle del Tevere e sui monti circostanti</li>
+    </ul>
+     </section>
+
+    <section>
+    <h2>Cosa mangiare</h2>
+    <p>Consiglio una sosta a Nazzano per un panino con porchetta e pecorino. Se trovi aperto, c’è anche un piccolo forno che fa pizza bianca buonissima.</p>
+  </section>
+  <section>
+    <h2>Consigli pratici</h2>
+    <ul>
+      <li>Meglio affrontare il giro in primavera o in autunno</li>
+      <li>Porta almeno due borracce: pochi punti d’acqua lungo il percorso</li>
+      <li>Attenzione a un tratto sterrato prima di Ponzano: fondo compatto ma serve cautela</li>
+    </ul>
+  </section>
+      <h2>Filacciano vista dalla mia bicicletta</h2>
+      <p>
+        Appena superata una curva sulla strada che costeggia la Valle del Tevere, 
+        Filacciano mi è apparso come sospeso nel tempo. La salita verso il centro 
+        storico è breve ma intensa, e quando arrivo in cima mi accoglie un silenzio 
+        che non è vuoto, ma pieno di storia. In sella alla mia bici, passo davanti a 
+        case di pietra che sembrano raccontare storie antiche. Una signora mi saluta 
+        con un cenno gentile, e un anziano mi chiede da dove vengo. Qui la gente non è 
+        abituata al turismo di massa, ma proprio per questo ti fa sentire subito il benvenuto.
+        L’ingresso del Palazzo del Drago compare improvviso, imponente e severo, proprio 
+        come nei racconti del cinema italiano. Mi fermo a guardarlo mentre recupero fiato e 
+        bevo un sorso d’acqua: penso che questo luogo ha qualcosa di magico, difficile da 
+        spiegare ma facile da sentire. E intorno, solo la valle, il cielo e la luce calda del Lazio.
+      </p>
+     <p style="text-align:center; margin-top: 1em;">
+       Scarica la <a href="filacciano-percorso.gpx" download title="Scarica il file GPX per GPS o app di navigazione" type="application/gpx+xml">traccia GPX</a> dell'itinerario cicloturistico
+     </p>
+     <picture>
+<img src="filacciano-vicoli.webp"
+     alt="Vicoli di Filacciano atmosfera autentica"
+     title="Filacciano ed i suoi vicoli con atmosfera autentica"
+     width="400" height="533" loading="lazy"
+     style="display:block; margin:0 auto; max-width:100%; height:auto;">
+</picture>
+<p>
+  Questo edificio seicentesco è così suggestivo da aver conquistato anche il regista <strong>Federico Fellini</strong>, che lo 
+  scelse per girare alcune scene del suo capolavoro <em>8½</em>.
+</p>
+<picture>
+<img src="filacciano-palazzo-drago.webp"
+     alt="Palazzo del Drago a Filacciano, borgo laziale tra natura e storia"
+     title="Filacciano ed il Palazzo del Drago, scelto da Fellini per il film 8 e 1/2"
+     width="800" height="800" loading="lazy"
+     style="display:block; margin:0 auto; max-width:100%; height:auto;">
+</picture>
+<p>
+  Oltre al palazzo, il borgo offre panorami incantevoli: campi coltivati, sentieri che si perdono nella campagna, e il lento 
+  scorrere del <strong>fiume Tevere</strong>. 
+  Un luogo perfetto per <strong>gli amanti della natura e del cicloturismo</strong>.
+</p>
+<picture>
+<img src="filacciano-panorama.webp"
+     alt="Panorama da Filacciano, un borgo con panorami incantevoli"
+     title="Filacciano ed il suo panorama sulla valle del Tevere"
+     width="800" height="800" loading="lazy"
+     style="display:block; margin:0 auto; max-width:100%; height:auto;">
+</picture>
+<h2>Perché visitare Filacciano</h2>
+<p>
+Anche se piccolo e poco popolato, Filacciano conserva un’anima viva: il centro storico è ben curato, e le persone che si 
+  incontrano sono spesso pronte a salutare con un sorriso. 
+  Ideale per chi vuole staccare dalla città 
+  senza allontanarsi troppo.
+</p>
+<p>
+  Passeggiare per Filacciano è come fare un tuffo nella semplicità autentica dei borghi italiani: ogni angolo racconta una 
+  storia, ogni incontro lascia un segno.
+</p>
+     <div class="event-box">
+  <h2>Filacciano Street Food Festival</h2> 
+  <h3>Dove</h3>
+  <p>Piazza Umberto I, Filacciano (RM)</p> 
+  <h3>Quando</h3>
+  <p>Sabato 28 giugno 2025, ore 17:30</p>  
+<picture>
+<img src="filacciano-streetfood-festival.webp"
+     alt="Filacciano, StreetFood Festival 2025"
+     title="Filacciano, StreetFood Festival 2025"
+     width="800" height="800" loading="lazy"
+     style="display:block; margin:0 auto; max-width:100%; height:auto;">
+</picture>
+     </div>
+    </article>
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "name": "Filacciano Street Food Festival",
+  "startDate": "2025-06-28T17:30",
+  "location": {
+    "@type": "Place",
+    "name": "Piazza Umberto I",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Filacciano",
+      "addressRegion": "Lazio",
+      "addressCountry": "IT"
+    }
+  },
+  "image": "https://vieminori.it/immagini/eventi/filacciano-streetfood-festival.webp",
+  "description": "Festival enogastronomico con street food, musica dal vivo e atmosfera conviviale nel borgo di Filacciano.",
+  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "organizer": {
+    "@type": "Organization",
+    "name": "Comune di Filacciano",
+    "url": "https://www.comune.filacciano.rm.it"
+  }
+}
+</script>
+
+    <script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "FAQPage",
+ "mainEntity": [
+   {
+     "@type": "Question",
+     "name": "Dove si trova Filacciano?",
+     "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Filacciano si trova in Lazio, nella provincia di Roma, affacciato sulla valle del Tevere."
+     }
+   },
+   {
+     "@type": "Question",
+     "name": "Cosa vedere a Filacciano?",
+     "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Il borgo è famoso per il Palazzo del Drago, i paesaggi naturali e la vicinanza alla Riserva Naturale di Nazzano."
+     }
+   }
+ ]
+}
+</script>
+  </main>
+<footer class="site-footer" aria-label="Footer">
+  <div class="footer-content">
+    
+    <div class="footer-branding">
+      <h2 class="footer-logo">Vie Minori</h2>
+      <p class="footer-description">
+        Pedala tra borghi, natura e tradizioni lungo le vie meno battute d’Italia. Cicloturismo autentico, storie locali e itinerari indimenticabili.
+      </p>
+    </div>
+      <div class="footer-info">
+      <address>
+        <strong>Vie Minori</strong><br>
+        Monterotondo (RM), Italia<br>
+        Email: <a href="mailto:info@vieminori.it">antoninoingegnere@yhaoo.com</a>
+      </address>
+
+      <div class="footer-social">
+        <a href="https://instagram.com/vieminori" target="_blank" rel="noopener" aria-label="Instagram Vie Minori">Instagram</a> |
+        <a href="https://threads.net/@vieminori" target="_blank" rel="noopener" aria-label="Threads Vie Minori">Threads</a>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    <p class="text-sm text-gray-500 mt-4 flex items-center gap-2">
+  <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">
+    <img alt="Licenza Creative Commons" style="width:88px;height: 31px;" src="https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png">
+  </a>
+  <span>
+    I contenuti di questo sito sono distribuiti con licenza
+    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" class="underline hover:text-primary">
+      Creative Commons BY-NC-SA 4.0
+    </a>.
+  </span>
+</p>
+
+  </div>
+</footer>
+<script type="application/ld+json">
+"publisher": {
+  "@type": "Organization",
+  "name": "Vie Minori",
+  "url": "https://www.vieminori.it"
+}
+</script>
+    <script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"TouristAttraction",
+  "name":"Palazzo del Drago",
+  "description":"Il Palazzo del Drago a Filacciano, set di Fellini per 8½.",
+  "image":"https://vieminori.it/filacciano-palazzo-drago.webp",
+  "geo": { "@type":"GeoCoordinates", "latitude": 42.2467, "longitude": 12.6206 }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"TouristDestination",
+  "name":"Filacciano",
+  "description":"Filacciano è un borgo del Lazio sul Tevere, noto per Palazzo del Drago.",
+  "image":"https://vieminori.it/filacciano-palazzo-drago.webp",
+  "geo": { "@type":"GeoCoordinates", "latitude": 42.2467, "longitude": 12.6206 },
+  "touristType":"Cicloturisti",
+  "isPartOf": { "@type":"WebSite", "name":"Vie Minori", "url":"https://vieminori.it" }
+}
+</script>
+<script>
+  function toggleMenu() {
+    document.getElementById('navLinks').classList.toggle('active');
+  }
+</script>
+</body>
+</html>
