@@ -87,10 +87,19 @@
   margin-top: 2rem;
   border-left: 4px solid #d62828;
 }
+
 @media (max-width: 768px) {
-  aside {
-    border-left: none;
-    border-top: 4px solid #d62828;
+  .hero {
+    aspect-ratio: auto;     /* disabilita il rapporto fisso */
+    height: auto;           /* si adatta al contenuto */
+    min-height: 60vh;       /* altezza minima gradevole */
+    padding: 1rem;          /* spazio interno per respirare */
+  }
+
+  .hero-content {
+    width: 100%;
+    max-width: 100%;
+    padding: 1.5rem;
   }
 }
 
