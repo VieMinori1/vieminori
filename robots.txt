@@ -1,5 +1,4 @@
 User-agent: *
-Disallow: /index.html
+Disallow:
+
 Sitemap: https://www.vieminori.it/sitemap.xml
-
-
