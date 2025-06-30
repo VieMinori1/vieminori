@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://www.vieminori.it/</loc>
+    <loc>https://vieminori.it/</loc>
     <lastmod>2025-06-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -45,7 +45,7 @@
   <!-- Esempio di altre pagine: decommentale quando le crei -->
   <!--
   <url>
-    <loc>https://www.vieminori.it/borghi.html</loc>
+    <loc>https://vieminori.it/borghi.html</loc>
     <lastmod>2025-05-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
