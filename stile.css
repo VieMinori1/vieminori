@@ -227,7 +227,7 @@ h2 {
 /* Stili per la descrizione della scheda */
 .card-content p {
     font-size: 1rem;
-    color: #666;
+    color: #222;
     line-height: 1.5;
     margin-bottom: 1rem;
     flex-grow: 1; /* Permette alla descrizione di occupare lo spazio */
