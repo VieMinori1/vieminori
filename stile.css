@@ -236,13 +236,13 @@ h2 {
 /* Stili per il "Leggi di più" */
 .read-more {
     font-weight: bold;
-    color: #007bff; /* Un colore che invita al clic */
+    color: #000; /* Un colore che invita al clic */
     align-self: flex-start; /* Allinea a sinistra */
     transition: color 0.3s ease;
 }
 
 .read-more:hover {
-    color: #0056b3; /* Colore più scuro all'hover */
+    color: #000; /* Colore più scuro all'hover */
 }
 
 /* Media Queries per la responsività */
