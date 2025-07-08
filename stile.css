@@ -162,6 +162,108 @@ h2 {
   font-weight: bold;
 }
 
+/* ========== GRIGLIA ANTEPRIMA POST ========== */
+/* Stili per il contenitore delle schede */
+.cards-container {
+    display: grid; /* Usa Grid per un layout flessibile */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Colonne adattive */
+    gap: 2rem; /* Spazio tra le schede */
+    padding: 2rem 1rem; /* Padding intorno al contenitore */
+    max-width: 1200px; /* Larghezza massima del contenitore */
+    margin: 0 auto; /* Centra il contenitore */
+}
+
+/* Stili base per ogni singola scheda */
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden; /* Assicura che l'immagine non sporga */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex; /* Permette al contenuto di essere ben allineato */
+    flex-direction: column; /* Impila immagine e contenuto */
+}
+
+/* Effetto hover per le schede */
+.card:hover {
+    transform: translateY(-5px); /* Leggero sollevamento all'hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Ombra più pronunciata */
+}
+
+/* Stili per il link all'interno della card */
+.card a {
+    text-decoration: none; /* Rimuove la sottolineatura dal link */
+    color: inherit; /* Mantiene il colore del testo ereditato */
+    display: flex;
+    flex-direction: column;
+    height: 100%; /* Fa in modo che il link occupi tutta la card */
+}
+
+/* Stili per l'immagine all'interno della scheda */
+.card img {
+    width: 100%;
+    height: 200px; /* Altezza fissa per le immagini */
+    object-fit: cover; /* Ritaglia l'immagine per coprire l'area */
+    display: block; /* Rimuove lo spazio sotto l'immagine */
+}
+
+/* Stili per il contenitore del testo della scheda */
+.card-content {
+    padding: 1.5rem;
+    flex-grow: 1; /* Permette al contenuto di espandersi e occupare lo spazio rimanente */
+    display: flex;
+    flex-direction: column;
+}
+
+/* Stili per il titolo della scheda */
+.card-content h3 {
+    margin-top: 0;
+    margin-bottom: 0.8rem;
+    font-size: 1.4rem;
+    color: #333;
+    line-height: 1.3;
+}
+
+/* Stili per la descrizione della scheda */
+.card-content p {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+    flex-grow: 1; /* Permette alla descrizione di occupare lo spazio */
+}
+
+/* Stili per il "Leggi di più" */
+.read-more {
+    font-weight: bold;
+    color: #007bff; /* Un colore che invita al clic */
+    align-self: flex-start; /* Allinea a sinistra */
+    transition: color 0.3s ease;
+}
+
+.read-more:hover {
+    color: #0056b3; /* Colore più scuro all'hover */
+}
+
+/* Media Queries per la responsività */
+@media (max-width: 768px) {
+    .cards-container {
+        grid-template-columns: 1fr; /* Una singola colonna su schermi piccoli */
+        padding: 1rem;
+    }
+
+    .card img {
+        height: 180px;
+    }
+
+    .card-content h3 {
+        font-size: 1.3rem;
+    }
+
+    .card-content p {
+        font-size: 0.95rem;
+    }
+}
 /* ========== GRIGLIA BORGHI ========== */
 .borgo-grid {
   display: grid;
